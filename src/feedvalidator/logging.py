@@ -232,7 +232,6 @@ class MissingTextualContent(Warning): pass
 
 class NotUTF8(Warning): pass
 class MissingItunesElement(Warning): pass
-class MissingItunesEmail(Warning): pass
 class UnsupportedItunesFormat(Warning): pass
 
 class SelfNotAtom(Warning): pass

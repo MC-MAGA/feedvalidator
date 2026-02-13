@@ -181,7 +181,6 @@ messages = {
   ImageUrlFormat:          "Image not in required format",
   ProblematicalRFC822Date: "Problematical RFC 822 date-time value",
   DuplicateEnclosure:      "item contains more than one enclosure",
-  MissingItunesEmail:      "The recommended <itunes:email> element is missing",
   MissingGuid:             "%(parent)s should contain a %(element)s element",
   UriNotIri:               "IRI found where URL expected",
   ObsoleteWikiNamespace:   "Obsolete Wiki Namespace",
