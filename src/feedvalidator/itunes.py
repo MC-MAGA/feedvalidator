@@ -11,6 +11,9 @@ class itunes:
   def do_itunes_block(self):
     return yesnoclean(), noduplicates()
 
+  def do_itunes_complete(self):
+    return yesnoclean(), noduplicates()
+
   def do_itunes_explicit(self):
     return truefalse(), noduplicates()
 
