@@ -36,8 +36,6 @@ class itunes_channel(itunes):
       self.log(MissingItunesElement({"parent":self.name, "element":'itunes:category'}))
     if not 'itunes_explicit' in self.children:
       self.log(MissingItunesElement({"parent":self.name, "element":'itunes:explicit'}))
-    if not 'itunes_owner' in self.children:
-      self.log(MissingItunesEmail({"parent":self.name, "element":'itunes:email'}))
 
   def setItunes(self, value):
     if value and not self.itunes:
